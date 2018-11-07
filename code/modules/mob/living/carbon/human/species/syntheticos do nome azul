@@ -1,10 +1,10 @@
 
-/datum/species/human/synthetic
-	name = "Synthetic"
+/datum/species/machine/synthetic
+	name = "COMBAT Synthetic"
 	name_plural = "synthetics"
-	total_health = 150 //more health than regular humans
-	brute_mod = 0.75
-	burn_mod = 1.1
+	total_health = 250 //more health than regular humans
+	brute_mod = 0.50
+	burn_mod = 2.30
 	cold_level_1 = -1
 	cold_level_2 = -1
 	cold_level_3 = -1
@@ -14,8 +14,9 @@
 	body_temperature = 350
 	can_revive_by_healing = 1
 	species_traits = list(IS_WHITELISTED, NO_BREATHE, NO_SCAN, NO_INTORGANS, NO_PAIN, NO_DNA, RADIMMUNE, VIRUSIMMUNE, NOTRANSSTING)
+	spawn_flags = SPECIES_IS_RESTRICTED
 	clothing_flags = HAS_UNDERWEAR | HAS_UNDERSHIRT | HAS_SOCKS
-	bodyflags = HAS_SKIN_TONE | HAS_BODY_MARKINGS
+	bodyflags = HAS_SKIN_COLOR | HAS_HEAD_MARKINGS | HAS_HEAD_ACCESSORY | ALL_RPARTS
 	dietflags = 0
 	blood_color = "#EEEEEE"
 	has_organ = list(
@@ -25,3 +26,23 @@
 		"charger" = /obj/item/organ/internal/cyberimp/arm/power_cord
 		)
 	vision_organ = /obj/item/organ/internal/eyes/optical_sensor
+
+
+
+/datum/species/machine/synthetic/old
+	name = "Old Synthetic"
+	name_plural = "synthetics"
+	total_health = 150 //more health than regular humans
+	brute_mod = 0.75
+	burn_mod = 3.1
+	cold_level_1 = -1
+	cold_level_2 = -1
+	cold_level_3 = -1
+	heat_level_1 = 500
+	heat_level_2 = 1000
+	heat_level_3 = 2000
+	body_temperature = 350
+	can_revive_by_healing = 1
+	species_traits = list(NO_BREATHE, NO_SCAN, NO_INTORGANS, NO_PAIN, NO_DNA, RADIMMUNE, VIRUSIMMUNE, NOTRANSSTING, NOGUNS)
+	spawn_flags = SPECIES_IS_RESTRICTED
+

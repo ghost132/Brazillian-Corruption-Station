@@ -8,7 +8,7 @@
 	speech_chance = 20
 	unarmed_type = /datum/unarmed_attack/diona
 	//primitive_form = "Nymph"
-	slowdown = 5
+	slowdown = 3
 	remains_type = /obj/effect/decal/cleanable/ash
 
 
@@ -38,6 +38,7 @@
 	taste_sensitivity = TASTE_SENSITIVITY_NO_TASTE
 	skinned_type = /obj/item/stack/sheet/wood
 
+	burn_mod = 2.90
 	oxy_mod = 0
 
 	body_temperature = T0C + 15		//make the plant people have a bit lower body temperature, why not

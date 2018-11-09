@@ -1687,6 +1687,7 @@
 #include "code\modules\mob\living\carbon\human\species\skeleton.dm"
 #include "code\modules\mob\living\carbon\human\species\skrell.dm"
 #include "code\modules\mob\living\carbon\human\species\slime.dm"
+#include "code\modules\mob\living\carbon\human\species\Synthetics.dm"
 #include "code\modules\mob\living\carbon\human\species\tajaran.dm"
 #include "code\modules\mob\living\carbon\human\species\unathi.dm"
 #include "code\modules\mob\living\carbon\human\species\vox.dm"

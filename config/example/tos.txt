@@ -1,3 +1,6 @@
-<h1>Welcome to Space Station 13!</h1>
-
-Terms of service goes here.
+<h1 style="text-align: center;">Welcome to Space Station 13!</h1>
+<p>&nbsp;</p>
+<h2 style="text-align: center;"><span style="color: #00ccff;"><span style="color: #33cccc;">Testando os termos de servi&ccedil;o</span></span></h2>
+<div><span style="color: #00ccff;"><span style="color: #33cccc;">&nbsp;</span></span></div>
+<div style="text-align: center;"><span style="color: #ff0000;">Mas avisando logo, podem haver evetons envolvendo lolis, sugiro manter a discri&ccedil;&atilde;o!</span></div>
+<p>.</p>

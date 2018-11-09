@@ -254,10 +254,3 @@
  	silence_steps = TRUE
  	w_class = WEIGHT_CLASS_SMALL
 
- //jojo//////////////
-
-/obj/item/clothing/shoes/going_underground/botas
-	name = "botas jojo"
-	desc = "ORA!"
-	icon = 'icons/obj/clothing/makonha.dmi'
-	icon_state = "botas"

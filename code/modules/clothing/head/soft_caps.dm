@@ -124,6 +124,6 @@
 /obj/item/clothing/head/going_underground/bone
 	name = "Bone jojo"
 	desc = "ORA!"
-	icon = 'icons/obj/clothing/makonha.dmi'
+	icon = 'icons/mob/head.dmi'
 	icon_state = "bone"
 

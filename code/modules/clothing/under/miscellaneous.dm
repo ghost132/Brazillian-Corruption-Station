@@ -832,3 +832,11 @@
 	item_state = "medicalgown"
 	item_color = "medicalgown"
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
+
+	 //jojo//////////////
+
+/obj/item/clothing/under/going_underground/meias
+	name = "meias"
+	desc = "ORA!"
+	icon = 'icons/obj/clothing/makonha.dmi'
+	icon_state = "botas"

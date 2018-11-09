@@ -545,3 +545,11 @@
 	icon_state = "doom_pants"
 
 	armor = list(melee = 10, bullet = 15, laser = 5, energy = 20, bomb = 5, bio = 0, rad = 0)
+
+	//jojo/////////////////////////////////
+
+/obj/item/clothing/suit/going_underground/camisa
+	name = "camisa jojo"
+	desc = "ORA!"
+	icon = 'icons/mob/suit.dmi'
+	icon_state = "camisa"

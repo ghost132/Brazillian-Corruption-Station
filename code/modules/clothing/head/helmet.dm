@@ -302,3 +302,5 @@ obj/item/clothing/head/blob
 	icon_state = "doom_helmet"
 
 	armor = list(melee = 30, bullet = 7, laser = 2, energy = 2, bomb = 3, bio = 2, rad = 0)
+
+

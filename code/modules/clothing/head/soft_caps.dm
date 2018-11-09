@@ -118,3 +118,12 @@
 	desc = "A soft cap worn by marines of the Sol Federation. The insignia signifies the wearer bears the rank of a Lieutenant."
 	icon_state = "solgovcsoft"
 	item_color = "solgovc"
+
+//JOJO///////
+
+/obj/item/clothing/head/going_underground/bone
+	name = "Bone jojo"
+	desc = "ORA!"
+	icon = 'icons/obj/clothing/makonha.dmi'
+	icon_state = "bone"
+

@@ -972,3 +972,11 @@
 	name = "ladies red victorian coat"
 	icon_state = "ladiesredvictoriancoat"
 	item_state = "ladiesredvictoriancoat"
+
+	//jojo/////////////////////////////////
+
+/obj/item/clothing/suit/going_underground/camisa
+	name = "camisa jojo"
+	desc = "ORA!"
+	icon = 'icons/obj/clothing/makonha.dmi'
+	icon_state = "camisa"

@@ -458,3 +458,90 @@
 	name = "emergency response team janitor armor"
 	desc = "A set of armor worn by janitorial members of the Nanotrasen Emergency Response Team. Has red and white highlights."
 	icon_state = "ertarmor_jan"
+
+
+//storm trooper
+
+/obj/item/clothing/suit/armor/stormtrooper
+
+	name = "roupa de stormtrooper"
+
+	desc = "ele não vai acertar"
+
+	icon = 'icons/mob/suit.dmi'
+
+	icon_state = "stormtrooper"
+
+	armor = list(melee = 30, bullet = 10, laser = 30, energy = 30, bomb = 5, bio = 0, rad = 0)
+
+
+
+//storm trooper capitão
+
+
+
+/obj/item/clothing/suit/armor/stormtrooper_cpt
+
+	name = "roupa de storm trooper capitão"
+
+	desc = "pra mandar nos trouxas"
+
+	icon = 'icons/mob/suit.dmi'
+
+	icon_state = "stormtrooper_cpt"
+
+	armor = list(melee = 30, bullet = 10, laser = 30, energy = 30, bomb = 5, bio = 0, rad = 0)
+
+
+
+//storm trooper piloto
+
+
+
+/obj/item/clothing/suit/armor/stormtrooper_pilot
+
+	name = "roupa de stormtrooper piloto"
+
+	desc = "relaxa, ele não vai acertar o asteroide"
+
+	icon = 'icons/mob/suit.dmi'
+
+	icon_state = "stormtrooper_pilot"
+
+	armor = list(melee = 30, bullet = 10, laser = 30, energy = 30, bomb = 5, bio = 0, rad = 0)
+
+
+
+//roupa do DOOM
+
+
+
+/obj/item/clothing/suit/armor/roupa_DOOM
+
+	name = "roupa do DOOM"
+
+	desc = "MALDITOS ALIENS!!!!"
+
+	icon = 'icons/mob/suit.dmi'
+
+	icon_state = "doom_armor"
+
+	armor = list(melee = 30, bullet = 30, laser = 30, energy = 30, bomb = 20, bio = 0, rad = 0)
+
+
+
+//calça do DOOM
+
+
+
+/obj/item/clothing/suit/armor/calca_DOOM
+
+	name = "calça do DOOM"
+
+	desc = "MALDITOS ALIENS!!!!"
+
+	icon = 'icons/mob/suit.dmi'
+
+	icon_state = "doom_pants"
+
+	armor = list(melee = 10, bullet = 15, laser = 5, energy = 20, bomb = 5, bio = 0, rad = 0)

@@ -63,3 +63,12 @@
 	desc = "A comfortable suit for paramedics. Has dark colours."
 	icon_state = "labcoat_emt_open"
 	item_state = "labcoat_emt_open"
+
+	//jojo///////////
+
+/obj/item/clothing/suit/going_underground/casaco_jotaro
+	name = "casaco jotaro 4"
+	desc = "ORA!"
+	icon = 'icons/mob/suit.dmi'
+	icon_state = "casaco jotaro 4"
+

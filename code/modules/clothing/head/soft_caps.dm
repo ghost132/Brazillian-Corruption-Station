@@ -127,3 +127,9 @@
 	icon = 'icons/mob/head.dmi'
 	icon_state = "bone"
 
+/obj/item/clothing/head/going_underground/bone_jotaro
+	name = "bone jotaro 4"
+	desc = "ORA!"
+	icon = 'icons/mob/suit.dmi'
+	icon_state = "bone jotaro 4"
+

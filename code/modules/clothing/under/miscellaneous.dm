@@ -843,8 +843,8 @@
 
 /obj/item/clothing/under/camisa_jotaro
 	name = "camisa jotaro 4"
-	icon = 'icons/mob/suit.dmi'
-	icon_state = "camisa jotaro 4"
+	icon = 'icons/mob/uniform.dmi'
+	icon_state = "camisa_jotaro 4"
 	flags_size = null
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS
 

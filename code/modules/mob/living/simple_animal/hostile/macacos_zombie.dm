@@ -1,5 +1,16 @@
+/mob/living/simple_animal/hostile/poison/AttackingTarget()
+	..()
+	if(isliving(target))
+		var/mob/living/L = target
+		if(L.reagents)
+			L.reagents.add_reagent("Doença do macaco", poison_per_bite)
+			if(prob(poison_per_bite))
+				to_chat(L, "<span class='danger'>You feel a tiny prick.</span>")
+				L.reagents.add_reagent(poison_type, poison_per_bite)
+
+
 //macacos zombie simples
-/mob/living/simple_animal/hostile/macaco_zombie
+/mob/living/simple_animal/hostile/macacos_zombie
 	name = "macaco zombie"
 	desc = "Fofinho e mortinho, ele vai comer seu cuzinho."
 	icon = 'icons/mob/monkey.dmi'

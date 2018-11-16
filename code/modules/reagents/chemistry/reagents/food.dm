@@ -961,3 +961,21 @@
 		M.adjustBruteLoss(-1 * REAGENTS_EFFECT_MULTIPLIER)
 		M.adjustFireLoss(-1 * REAGENTS_EFFECT_MULTIPLIER)
 	..()
+
+/datum/reagent/comsumable/carne_de_macaco_doente
+	name = "Carne de macaco doente"
+	id = "carne de macaco doente"
+	description = "Uma carne nada saudavel vindo de um macaco virotico"
+	reagent_state = SOLID
+	color = "#AC7E67"
+	taste_message = "estragado"
+
+/datum/reagent/comsumable/carne_de_macaco_doente/on_mob_life(mob/living/M)
+	if(prob(4))
+		M.reagents.add_reagent("Doença do macaco", rand(1,3))
+	..()
+
+/datum/reagent/consumable/carne_de_macaco_doente/reaction_turf(turf/T, volume)
+	if(prob(10) && volume >= 5 && !isspaceturf(T))
+		new /obj/effect/decal/cleanable/blood/gibs/cleangibs(T)
+		playsound(T, 'sound/effects/splat.ogg', 50, 1, -3)

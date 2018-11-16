@@ -1119,3 +1119,19 @@
 		M.electrocute_act(rand(5,20), "Teslium in their body", 1, 1) //Override because it's caused from INSIDE of you
 		playsound(M, "sparks", 50, 1)
 	..()
+
+
+//DOENÇA DO MACACO//
+
+/datum/reagent/doenca_do_macaco
+	name = "Doença do macaco"
+	id = "Doença do macaco"
+	description = "Uma doença ainda desconhecida que é transmitida atraves de qualquer ferimento causado por um macaco zombie"
+	reagent_state = LIQUID
+	color = "#696969"
+
+/datum/reagent/doenca_do_macaco/on_mob_life(mob/living/M)
+	M.adjustToxLoss(1.5)
+	M.AdjustHallucinate(3)
+	..()
+

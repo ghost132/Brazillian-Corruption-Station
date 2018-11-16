@@ -48,7 +48,7 @@
 	var/list/votable_modes = list()		// votable modes
 	var/list/probabilities = list()		// relative probability of each mode
 	var/humans_need_surnames = 0
-	var/allow_random_events = 0			// enables random events mid-round when set to 1
+	var/allow_random_events = 1			// enables random events mid-round when set to 1
 	var/allow_ai = 1					// allow ai job
 	var/hostedby = "Dinheiro publico"
 	var/respawn = 0
@@ -159,10 +159,10 @@
 	var/list/event_first_run   = list(EVENT_LEVEL_MUNDANE = null, 	EVENT_LEVEL_MODERATE = null,	EVENT_LEVEL_MAJOR = list("lower" = 48000, "upper" = 60000))
 	// The lowest delay until next event
 	// 10, 30, 50 minutes respectively
-	var/list/event_delay_lower = list(EVENT_LEVEL_MUNDANE = 6000,	EVENT_LEVEL_MODERATE = 18000,	EVENT_LEVEL_MAJOR = 30000)
+	var/list/event_delay_lower = list(EVENT_LEVEL_MUNDANE = 3000,	EVENT_LEVEL_MODERATE = 8000,	EVENT_LEVEL_MAJOR = 10000)
 	// The upper delay until next event
 	// 15, 45, 70 minutes respectively
-	var/list/event_delay_upper = list(EVENT_LEVEL_MUNDANE = 9000,	EVENT_LEVEL_MODERATE = 27000,	EVENT_LEVEL_MAJOR = 42000)
+	var/list/event_delay_upper = list(EVENT_LEVEL_MUNDANE = 7000,	EVENT_LEVEL_MODERATE = 11000,	EVENT_LEVEL_MAJOR = 23000)
 
 	var/starlight = 0	// Whether space turfs have ambient light or not
 	var/allow_holidays = 0
